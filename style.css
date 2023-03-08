@@ -1,0 +1,53 @@
+.nav {
+  display: inline-flex;
+  width: 1170px;
+  justify-content: space-between;
+}
+.nav__list {
+  width: 380px;
+  display: flex;
+  margin: 0;
+  justify-self: start;
+  justify-content: space-between;
+}
+.nav__item {
+  list-style: none;
+}
+.nav__link {
+  text-decoration: none;
+}
+.nav__tel {
+  height: 32px;
+  justify-self: end;
+}
+
+.logo {
+  margin-left: 135px;
+  width: 82px;
+  height: 48px;
+}
+
+.header__subtitle {
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.header__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 72px;
+  font-weight: 400;
+  max-width: 352px;
+}
+.header__text {
+  max-width: 370px;
+}
+.header__search {
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  color: antiquewhite;
+  width: 170px;
+  height: 48px;
+  background-color: rgb(233, 30, 30);
+  border-radius: 24px;
+}/*# sourceMappingURL=style.css.map */
