@@ -29,21 +29,26 @@
 }
 
 .header {
-
     &__subtitle {
     font-family: 'Oswald',sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 400;
+    margin-top: 50px;
     }
     &__title {
         font-family: 'Oswald',sans-serif;
         font-size: 72px;
         font-weight: 400;
         max-width: 352px;
+        color: #333333;
+        margin-top: 0;
+        margin-bottom: 30px;
     }
     &__text {
         max-width: 370px;
+        margin-top: 0;
+        margin-bottom: 37px;
 
     }
     &__search {
@@ -54,5 +59,18 @@
        height: 48px;
        background-color: rgb(233, 30, 30);
        border-radius: 24px;
+       padding: 5px;
+       margin-top: 37px;
+    }
+    &__content {
+        display: flexbox;
+        max-width: 400px;
+        width: 400px;
+        margin-left: 300px;
+    }
+    &__svg {
+       display: block;
+       margin-left: 500px;
     }
 }
+

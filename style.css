@@ -32,15 +32,21 @@
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 400;
+  margin-top: 50px;
 }
 .header__title {
   font-family: "Oswald", sans-serif;
   font-size: 72px;
   font-weight: 400;
   max-width: 352px;
+  color: #333333;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 .header__text {
   max-width: 370px;
+  margin-top: 0;
+  margin-bottom: 37px;
 }
 .header__search {
   text-decoration: none;
@@ -50,4 +56,16 @@
   height: 48px;
   background-color: rgb(233, 30, 30);
   border-radius: 24px;
+  padding: 5px;
+  margin-top: 37px;
+}
+.header__content {
+  display: block;
+  max-width: 400px;
+  width: 400px;
+  margin: 0;
+  padding: 0;
+}
+.header__svg {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
