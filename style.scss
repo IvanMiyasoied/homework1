@@ -1,5 +1,5 @@
 html {
-    font-family:'Oswald',sans-serif;
+    font-family:'Palanquin';
     font-weight: 400;
 }
 
@@ -14,7 +14,7 @@ html {
         display: flex;
         justify-self: start;
         justify-content: space-between;
-        font-family: 'Times New Roman', Times, serif;
+       
     }
     &__item {
        list-style: none;
@@ -24,7 +24,7 @@ html {
        text-decoration: none;
     }
     &__tel {
-       height: 32px;
+       height: 28px;
        margin-top: 10px;
        justify-self: end;
        text-decoration: none;
@@ -97,12 +97,15 @@ html {
     position: relative;
 }
 
+
 .FAQ {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 880px;
-    margin-top: 149px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
 
     &__article {
         width: 570px;
@@ -119,7 +122,7 @@ html {
         margin-left: 100px;
     }
     &__block-text {
-        margin-right: 100px;
+        margin-right: 250px;
         
     }
     &__subtitle {
@@ -128,21 +131,31 @@ html {
     }
     &__title {
         font-size: 56px;
-        max-width: 380px;
+        max-width: 400px;
     }
     &__text {
         max-width: 400px;
-        font-family: 'Times New Roman', Times, serif;
     }
     &__subtext {
         color: rgb(175, 172, 168);
         max-width: 370px;
-        font-family: 'Times New Roman', Times, serif;
     }
+   
     
-}   
+    
+    
+}
+
+
+details {
+    background: #FFFFFF;
+    width: 570px;
+    height: 112px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.101081);
+    border-radius: 16px
+} 
 details[open] {
-    background-color:#E13856;
+    background-color:#e63c83;
     width: 570px;
     height: 240px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.101081);
@@ -152,4 +165,12 @@ details[open] {
 details>summary {
     padding-top: 50px;
     padding-left: 15px;
+    font-family: 'Palanquin';
+}
+details > p {
+    width: 400px;
+    color: aliceblue;
+    margin-left: 15px;
+    font-family: 'Palanquin';
+    font-size: 20px;
 }
