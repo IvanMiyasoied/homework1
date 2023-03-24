@@ -49,6 +49,7 @@ html {
   font-size: 18px;
   text-transform: uppercase;
   margin-top: 50px;
+  color: #EF634D;
 }
 .header__title {
   font-size: 72px;
@@ -92,6 +93,7 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: #f7f6fe;
   height: 880px;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -116,7 +118,7 @@ html {
 }
 .FAQ__subtitle {
   max-width: 400px;
-  color: #f54545;
+  color: #EF634D;
   letter-spacing: 3px;
 }
 .FAQ__title {
@@ -127,12 +129,13 @@ html {
   max-width: 400px;
 }
 .FAQ__subtext {
-  color: rgb(248, 235, 217);
+  color: rgb(190, 188, 184);
   max-width: 370px;
 }
 .FAQ__decor {
   position: absolute;
-  left: 210px;
+  left: 200px;
+  bottom: 535px;
 }
 
 details {
@@ -148,6 +151,7 @@ details[open] {
   height: 240px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.101081);
   border-radius: 16px;
+  z-index: 1;
 }
 details[open] > summary {
   color: aliceblue;
@@ -165,4 +169,42 @@ details > p {
   margin-right: 48px;
   font-family: "Palanquin";
   font-size: 20px;
+}
+
+.contact {
+  height: 880px;
+  width: 1440px;
+  display: flex;
+  justify-content: space-around;
+}
+.contact__form-block {
+  margin-left: 135px;
+}
+.contact__subtittle {
+  font-size: 18px;
+  color: #EF634D;
+  letter-spacing: 3px;
+}
+.contact__tittle {
+  font-size: 56px;
+  color: #333333;
+}
+.contact__form {
+  display: grid;
+  gap: 10px;
+  width: 470px;
+}
+.contact__btn {
+  background-color: #E13856;
+  width: 170px;
+  height: 48px;
+  border-radius: 24px;
+  margin-top: 32px;
+}
+.contact__map {
+  margin-top: 20px;
+}
+
+input {
+  height: 50px;
 }/*# sourceMappingURL=style.css.map */
