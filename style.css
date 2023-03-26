@@ -158,9 +158,10 @@ details[open] > summary {
 }
 details > summary {
   padding-top: 38px;
-  padding-left: 15px;
+  padding-left: 48px;
   font-family: "Palanquin";
   font-size: 24px;
+  list-style: none;
 }
 details > p {
   width: 474px;
@@ -171,17 +172,22 @@ details > p {
   font-size: 20px;
 }
 
+details summary::-webkit-details-marker {
+  display: none;
+}
+
 .contact {
   height: 880px;
-  width: 1440px;
   display: flex;
   justify-content: space-around;
+  position: relative;
+  margin-top: 192px;
 }
 .contact__form-block {
-  margin-left: 135px;
+  margin-left: 50px;
 }
 .contact__subtittle {
-  font-size: 18px;
+  font-size: 20px;
   color: #EF634D;
   letter-spacing: 3px;
 }
@@ -193,6 +199,7 @@ details > p {
   display: grid;
   gap: 10px;
   width: 470px;
+  opacity: 50%;
 }
 .contact__btn {
   background-color: #E13856;
@@ -202,9 +209,63 @@ details > p {
   margin-top: 32px;
 }
 .contact__map {
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-right: 50px;
+}
+.contact__decor {
+  position: absolute;
+  right: 197px;
+  z-index: -1;
 }
 
 input {
-  height: 50px;
+  height: 45px;
+}
+
+.footer {
+  background-color: #333333;
+  height: 352px;
+}
+.footer__head {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+.footer__logo {
+  padding-top: 10px;
+}
+.footer__btn {
+  width: 170px;
+  height: 48px;
+  border-radius: 24px;
+  background-color: #E13856;
+}
+.footer__social {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 160px;
+}
+.footer__line {
+  width: 1200px;
+  margin-top: 25px;
+  opacity: 0.1;
+}
+.footer__subline {
+  display: flex;
+  justify-content: space-around;
+}
+.footer__sign {
+  color: #f8f7f6;
+  margin-top: 55px;
+}
+.footer__terms-policies {
+  text-decoration: none;
+  color: #f7f6fe;
+  margin-top: 50px;
+}
+.footer__link {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
 }/*# sourceMappingURL=style.css.map */
