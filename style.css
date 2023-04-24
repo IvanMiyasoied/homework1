@@ -5,8 +5,10 @@ html {
 
 .nav {
   display: flex;
-  max-height: 50px;
-  width: 1440px;
+  height: 50px;
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
   justify-content: space-between;
 }
 .nav__list {
@@ -34,21 +36,29 @@ html {
   padding-left: 35px;
   padding-top: 12px;
 }
+.nav__tel:hover {
+  background-color: #f3db06;
+}
+.nav__tel:active {
+  background-color: #9b8c08;
+  color: #e4e3db;
+  text-decoration: underline;
+}
 .nav__wrapper {
   display: flex;
+  max-width: 1440px;
 }
 
 .logo {
-  margin-left: 135px;
   width: 82px;
   height: 48px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .header__subtitle {
   font-size: 18px;
   text-transform: uppercase;
-  margin-top: 50px;
+  margin-top: 45px;
   color: #EF634D;
 }
 .header__title {
@@ -62,14 +72,24 @@ html {
   margin-bottom: 37px;
 }
 .header__search {
+  display: block;
   text-decoration: none;
+  text-align: center;
   color: antiquewhite;
-  width: 190px;
-  height: 48px;
+  width: 142px;
+  height: 28px;
   background-color: rgb(233, 30, 30);
   border-radius: 24px;
   padding: 5px;
+  padding-top: 11px;
   margin-top: 37px;
+}
+.header__search:hover {
+  background-color: #b12929;
+}
+.header__search:active {
+  background-color: #920b24;
+  color: #ecec87;
 }
 .header__wrapper {
   display: flex;
@@ -218,6 +238,14 @@ summary::after {
   height: 48px;
   border-radius: 24px;
   margin-top: 32px;
+  color: #f8f7f6;
+}
+.contact__btn:hover {
+  background-color: #fc0230;
+}
+.contact__btn:active {
+  background-color: #ee2694;
+  color: #3ce6ca;
 }
 .contact__map {
   margin-top: 30px;
@@ -249,7 +277,15 @@ input {
   width: 170px;
   height: 48px;
   border-radius: 24px;
+  background-color: #920b24;
+  color: #f8f7f6;
+}
+.footer__btn:hover {
+  background-color: #c70505;
+}
+.footer__btn:active {
   background-color: #E13856;
+  color: #04f052;
 }
 .footer__social {
   display: flex;
